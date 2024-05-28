@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/02f360b709.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="img/layout/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Character Perfil</title>
+  </head>
+  <body>
+    <label for="open-menu"><i class="fa-solid fa-bars menu"></i></label>
+    <input type="checkbox" name="" id="open-menu" />
+
+    <label for="open-language"><h4 class="language">ENG</h4></label>
+    <input type="checkbox" name="" id="open-language" />
+
+    <label for="open-login"><h4 id="login">LOG IN</h4></label>
+    <input type="checkbox" name="" id="open-login" />
+
+    <div class="layout">
+      <div class="lines">
+        <div class="menu-content">
+          <h1><a href="home.html">HOME</a></h1>
+          <h1><a href="characters.html">CHARACTERS</a></h1>
+          <h1><a href="gallery.html">GALLERY</a></h1>
+          <h1><a href="episodes.html">EPISODES</a></h1>
+          <h1><a href="store.html">STORE</a></h1>
+        </div>
+
+        <div class="normal-content char">
+          <div id="left-char-side">
+            <div id="org-img-name">
+              <img src="img/layout/circular_logo.png" alt="" />
+              <h2>PEAKY BLINDERS</h2>
+            </div>
+            <h3>Character Bio</h3>
+
+            <span id="character-bio">
+              Thomas Michael 'Tommy' Shelby OBE DCM MM MP is the main
+              protagonist of the Peaky Blinders. He is the son of Arthur and
+              Mrs. Shelby, brother of Arthur, John, Ada and Finn Shelby, father
+              of Duke, Charles and Ruby Shelby, as well as being the husband of
+              Grace and Lizzie Shelby. He is the leader of the Birmingham
+              criminal gang, the Peaky Blinders and the patriarch of the Shelby
+              Family.<br /><br />Thomas served in World War I with the rank of
+              Sergeant Major and received medals for gallantry (which he threw
+              away in a canal after returning from the war). His experiences in
+              World War I left him disillusioned and beset with ongoing
+              nightmares, and he becomes determined to move his family up in the
+              world so that the powers who had always mistreated them could no
+              longer touch them. <br /><br />After the vendetta with the New
+              York Mafia, and during the year of the Wall Street Crash, Thomas
+              Shelby became a Member of Parliament as a member of the Labour
+              Party, while lending the chair of the legal business to his older
+              brother, Arthur Shelby.
+            </span>
+          </div>
+
+          <div id="right-char-side">
+            <div id="char-nav">
+              <h4 id="active">Bio</h4>
+              <h4>Histories</h4>
+              <h4>Wallpapers</h4>
+            </div>
+
+            <div id="quote-name">
+              <h4>"I Have No Limitations."</h4>
+              <h4>- Thomas Shelby</h4>
+            </div>
+          </div>
+
+          <img src="img/tommy_shelby.png" alt="" id="char-back-img" />
+
+          <div id="actual-char-name">
+            <i class="fa-solid fa-chevron-left"></i>
+            <h6>Thomas Shelby</h6>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rubber"></div>
+      <div class="rubber onenav"></div>
+      <div class="rubber"></div>
+      <div class="rubber"></div>
+      <div class="rubber invisible"></div>
+      <div class="rubber"></div>
+      <div class="rubber"></div>
+      <div class="rubber dwn"></div>
+      <div class="rubber"></div>
+      <div class="rubber"></div>
+      <div class="rubber invisible"></div>
+      <div class="rubber"></div>
+      <div class="phone-line top"></div>
+      <div class="phone-line bottom"></div>
+
+      <img src="img/layout/logo.png" id="logo" alt="logo" />
+
+      <h4 id="actual-page">Bio</h4>
+
+      <nav>
+        <a href="characters.html"><h4>CHARACTERS</h4></a>
+      </nav>
+
+      <div id="social-icons">
+        <a href="https://www.youtube.com/@Netflix" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://twitter.com/ThePeakyBlinder" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/peakyblindersofficial/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+      <div id="actual-character">
+        <i class="fa-solid fa-chevron-left"></i>
+        <h4>Thomas Shelby</h4>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+
+    <div id="change-language-box">
+      <div id="change-language">
+        <h4>PT</h4>
+        <hr />
+        <h4 id="actual-language">ENG</h4>
+      </div>
+      <div id="rotated-cube"></div>
+      <div id="hide-half-cube"></div>
+    </div>
+
+    <input type="checkbox" name="" id="open-login-box" />
+    <input type="checkbox" name="" id="open-register-box" />
+
+    <div id="login-box">
+      <h2>Login</h2>
+      <input type="email" name="" id="" placeholder="Email" />
+      <input type="password" name="" id="" placeholder="Password" />
+      <div id="remember-password">
+        <div id="remember">
+          <input type="checkbox" name="" id="checkbox-remember" />
+          <label for="checkbox-remember">Remember me</label>
+        </div>
+        <p>Forgot Password?</p>
+      </div>
+      <button>Login</button>
+      <label for="open-register-box"
+        >Don't have an account? <b>Register</b></label
+      >
+    </div>
+
+    <div id="register-box">
+      <h2>Register</h2>
+      <input type="text" name="" id="" placeholder="Name" />
+      <input type="email" name="" id="" placeholder="Email" />
+      <input type="password" name="" id="" placeholder="Password" />
+      <input type="password" name="" id="" placeholder="Confirm Password" />
+      <div id="accept-terms-box">
+        <input type="checkbox" name="" id="accept-terms" />
+        <label for="accept-terms">Accept the terms and conditions</label>
+      </div>
+      <button>Register</button>
+      <p></p>
+      <label for="open-login-box">Already have an account? <b>Login</b></label>
+    </div>
+  </body>
+</html>
